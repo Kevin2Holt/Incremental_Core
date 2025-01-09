@@ -1,0 +1,15 @@
+<%- include("./partials/head.ejs"); %>
+
+<script>
+	console.log("'<%= userid %>'");
+</script>
+
+<script src="/game.js"></script>
+
+<div class="container" id="info">
+	<p class="info amount" id="p0_amount">⓪ -</p>
+</div>
+
+<%- include("./layers/p0/p0.ejs"); %>
+
+<%- include("./partials/foot.ejs"); %>

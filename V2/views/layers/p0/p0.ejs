@@ -1,0 +1,14 @@
+<script src="/p0.js"></script>
+
+<div class="container" id="p0">
+	<button id="p0_click"
+			type="button"
+			onClick="p0Click()">Click!</button>
+	<div class="container" id="generators">
+		
+		<% for(genNum=0; genNum < 8; genNum++) { %>
+			<%- include("./p0_generator.ejs"); %>
+		<% } %>
+
+	</div>
+</div>

@@ -1,0 +1,102 @@
+/*General*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+* {
+	font-family: 'Open Sans';
+	color: #ddd;
+	background-color: #000;
+}
+a {
+	text-decoration: none;/* Remove underline */
+	color: #fff;/* Set text color */
+}
+body {
+	margin: 0;/*This lets everything go right up against the sides of the browser's viewport*/
+}
+button {
+	border-radius: 5px;
+	border: 1px solid #999;
+	background-color: #333;
+}
+button:active {
+	background-color: #555;
+}
+
+div.container {
+	padding: 5px;
+	margin: 5px;
+}
+#info {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	padding: 5px 10px;
+	border: none;
+	border-bottom: 1px solid #999;
+}
+#filler_info {
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	height: 65px;
+}
+.label {
+	float: left;
+	margin: 0;
+	margin-right: 5px;
+}
+h4.label {
+	margin: 0;
+	paddign: 15px 0;
+/*	margin-bottom: 15px;*/
+}
+.current {
+	margin: 0;
+}
+.container.info {
+/*	width: 100%;*/
+}
+
+
+/* Nav */
+#nav {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+}
+button.nav {
+	width: auto;
+	min-width: 50px;
+	min-height: 50px;
+
+	font-size: 20pt;
+}
+button.nav:active {
+	background-color: #555;
+}
+
+/* p0 */
+#p0 {
+	padding: 0;
+	margin: 0;
+}
+#p0_click {
+	width: 95%;
+	height: 5em;
+	margin: 10px;
+/*	transition: background-color 0.01s ease;*/
+}
+.generator {
+	padding: 10px 5px;
+	border: 1px solid #999;
+}
+
+
+/*404 Page*/
+#errorMessage{
+	text-align: center;
+}
